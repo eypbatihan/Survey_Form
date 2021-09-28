@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 900px;
+    font-size: 40px;
+}
+#message{
+    font-size: 25px;
+}
+#name,#surname,#email{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#role,#option{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.question{
+    font-size: 20px;
+}
+#yes,#maybe,#notsure,#Front,#Back,#data{
+    margin-top: 10px;
+}
+#no,#additional{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit:hover{
+    color: red;
+}
