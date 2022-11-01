@@ -1,33 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-items: center;
 }
-h1{
-    font-weight: 900px;
-    font-size: 40px;
+.form {
+  border: 1px solid gray;
+  margin: 1rem;
+  padding: 2rem;
+  background-color: darkkhaki;
+  width: 50%;
 }
-#message{
-    font-size: 25px;
+.form:hover {
+  background-color: khaki;
 }
-#name,#surname,#email{
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+h1 {
+  font-weight: 900px;
+  font-size: 40px;
 }
-#role,#option{
-    margin-top: 10px;
-    margin-bottom: 10px;
+#message {
+  font-size: 25px;
 }
-.question{
-    font-size: 20px;
+#name,
+#surname,
+#email {
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
-#yes,#maybe,#notsure,#Front,#Back,#data{
-    margin-top: 10px;
+
+#role,
+#option {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#no,#additional{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.question {
+  font-size: 20px;
 }
-#submit:hover{
-    color: red;
+#yes,
+#maybe,
+#notsure,
+#Front,
+#Back,
+#data {
+  margin-top: 10px;
+}
+#no,
+#additional {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#submit:hover {
+  color: red;
 }
